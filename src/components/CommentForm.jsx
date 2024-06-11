@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Button, Form } from 'react-bootstrap';
-import users from './users.json';
+import users from '../../users.json';
 
 const CommentForm = ({ onSubmit }) => {
   const [commentText, setCommentText] = useState('');

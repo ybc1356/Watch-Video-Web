@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Button, Form, Card } from 'react-bootstrap';
-import ReplyForm from './ReplyForm';
+import ReplyForm from '../../ReplyForm';
 import users from './users.json';
 
 const Comment = ({ comment, editComment, deleteComment, addReply, likeComment }) => {
